@@ -1,6 +1,6 @@
 Name:           jetty-build-support
 Version:        1.1
-Release:        9%{?dist}
+Release:        8%{?dist}
 Summary:        Jetty build support files
 # licensing bug upstream
 # https://bugs.eclipse.org/bugs/show_bug.cgi?id=362646
@@ -43,9 +43,6 @@ pushd %{name}
 %doc jetty-distribution-remote-resources/src/main/resources/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1-9
-- Mass rebuild 2013-12-27
-
 * Tue Aug 27 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.1-8
 - Migrate away from mvn-rpmbuild
 
